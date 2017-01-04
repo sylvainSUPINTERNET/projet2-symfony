@@ -1,0 +1,18 @@
+Toutes routes non sécuriées => reconnu comme pas fonctionnel
+
+
+
+approche : 
+
+
+Inscription etc | done 
+Etudiant (user) / prof (admin) / admin (SUPER ADMIN)
+
+Par defaut inscription => Etudiant | done
+compte admin => admin1 admin1 | done
+compte teacher => teacher1 teacher1 | done
+
+
+table => matieres CHAQUE MATIERE A UNE NOTE ET DISPOSE PLUSIEUR ETUDIANT
+table => notes CHAQUE NOTE CORRESPOND A UNE MATIERE ET UN ETUDIANT
+table => moyenne CORRESPOND A UN UTILISATEUR
