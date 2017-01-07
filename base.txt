@@ -1,0 +1,27 @@
+Entité : 
+matiere    
+- Nom
+
+note     
+- Nombre
+- Commentaire
+
+
+(moyenne)
+
+
+
+ROLE : 
+
+SUPER ADMIN
+
+--- consultation
+- La liste des étudiants (et leurs matières)
+- La liste des professeurs (et leurs matières)
+- La liste des matières -----------------------------> ICI commence
+- La liste des étudiants d’une matières, ainsi que leur note
+
+--- modification
+- Modifier toutes les informations modifiables par les autres statuts
+- Changer le statut d’un compte (étudiant, professeur)
+- Assigner un professeur à une matière

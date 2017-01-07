@@ -1,0 +1,19 @@
+<h1>Table des matières</h1>
+
+<ul>
+    <li>
+        <a href="{{ path('matiereAdd')}}">Ajoter une matière</a>
+    </li>
+</ul>
+
+
+{% if matieres is empty %}
+    Aucune matière ajoutée pour le momment
+    {% else %}
+        {% for matiere in matieres %}
+            <ul>
+           <strong><li>{{ matiere.name }}</li></strong>
+            <li><a href="/matiere/matiereDelete/{{ matiere.id }}">Supprimer</a></li> <li><a href="/matiere/matiereEdit/{{ matiere.id }}">Modifier</a></li>
+            </ul>
+        {% endfor %}
+{% endif %}

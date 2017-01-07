@@ -1,7 +1,21 @@
+matiere:
+    resource: "@MatiereBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+matiere:
+    resource: MatiereController\Controller\MatiereController
+    type:     rest
+
+
+
+
 user:
     resource: "@UserBundle/Controller/"
     type:     annotation
     prefix:   /
+
+
 
 
 fos_user:
