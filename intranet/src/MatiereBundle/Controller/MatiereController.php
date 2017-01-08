@@ -19,7 +19,7 @@ class MatiereController extends Controller
     /**
      * @Route("/matiere",  name="matiere")
      */
-    public function indexAction(Request $request)
+    public function matiereIndexAction(Request $request)
     {
         var_dump($request->getPathInfo());
         var_dump("ici afficher la liste de toute les matières ainsi que les actions editer / supprimmer / ajouter");

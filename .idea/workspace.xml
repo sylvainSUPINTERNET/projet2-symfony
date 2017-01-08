@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39f99972-de5f-4a70-a499-e1538ac34c94" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/projet2-symfony.iml" afterPath="$PROJECT_DIR$/.idea/projet2-symfony.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/app/AppKernel.php" afterPath="$PROJECT_DIR$/intranet/app/AppKernel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/app/config/config.yml" afterPath="$PROJECT_DIR$/intranet/app/config/config.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/app/config/routing.yml" afterPath="$PROJECT_DIR$/intranet/app/config/routing.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/composer.json" afterPath="$PROJECT_DIR$/intranet/composer.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/composer.lock" afterPath="$PROJECT_DIR$/intranet/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/src/MatiereBundle/Controller/MatiereController.php" afterPath="$PROJECT_DIR$/intranet/src/MatiereBundle/Controller/MatiereController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php" afterPath="$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php" />
     </list>
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,55 +23,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/index.html.twig">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AppKernel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intranet/app/AppKernel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="425">
+              <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
               <folding>
-                <element signature="e#7#47#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intranet/app/config/routing.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/intranet/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatiereController.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Controller/MatiereController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
-              <folding>
-                <element signature="e#44#101#0#PHP" expanded="true" />
+                <element signature="e#41#98#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -101,6 +55,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="MatiereController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Controller/MatiereController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -114,7 +78,6 @@
         <option value="$PROJECT_DIR$/intranet/src/UserBundle/Entity/User.php" />
         <option value="$PROJECT_DIR$/intranet/app/config/security.yml" />
         <option value="$PROJECT_DIR$/intranet/src/UserBundle/Resources/views/Home/index.html.twig" />
-        <option value="$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/index.html.twig" />
         <option value="$PROJECT_DIR$/intranet/app/AppKernel.php" />
         <option value="$PROJECT_DIR$/intranet/app/config/config.yml" />
@@ -122,6 +85,7 @@
         <option value="$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/edit.html.twig" />
         <option value="$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/ajouter.html.twig" />
         <option value="$PROJECT_DIR$/intranet/src/MatiereBundle/Controller/MatiereController.php" />
+        <option value="$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php" />
       </list>
     </option>
   </component>
@@ -279,12 +243,13 @@
       <workItem from="1483797439394" duration="13000" />
       <workItem from="1483797474237" duration="2917000" />
       <workItem from="1483803999662" duration="4000" />
-      <workItem from="1483804010328" duration="2947000" />
+      <workItem from="1483804010328" duration="2981000" />
+      <workItem from="1483839411105" duration="488000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11413000" />
+    <option name="totallyTimeSpent" value="11935000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1320" height="784" extended-state="6" />
@@ -629,47 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intranet/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intranet/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/intranet/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
-          <folding>
-            <element signature="e#7#47#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -686,12 +610,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Resources/views/Matiere/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="11" lean-forward="false" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intranet/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="39" column="5" lean-forward="false" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="e#7#47#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intranet/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="60" lean-forward="false" selection-start-line="6" selection-start-column="60" selection-end-line="6" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intranet/app/config/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/intranet/src/MatiereBundle/Controller/MatiereController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="70" column="0" lean-forward="false" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/intranet/src/UserBundle/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="32" lean-forward="true" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
           <folding>
-            <element signature="e#44#101#0#PHP" expanded="true" />
+            <element signature="e#41#98#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
